@@ -10,7 +10,7 @@
     android:gravity="center"
     android:layout_margin="20dp"
     android:weightSum="100"
-    tools:context=".LoginPhoneNumberActivity">
+    tools:context=".LoginUserNameActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         <RelativeLayout
             android:layout_width="32dp"
             android:layout_margin="10dp"
-            android:backgroundTint="@color/my_primary"
+            android:backgroundTint="@color/light_gray"
             android:background="@drawable/circular_bg"
             android:layout_height="32dp">
             <TextView
@@ -48,7 +48,7 @@
         <RelativeLayout
             android:layout_width="32dp"
             android:layout_margin="10dp"
-            android:backgroundTint="@color/light_gray"
+            android:backgroundTint="@color/my_primary"
             android:background="@drawable/circular_bg"
             android:layout_height="32dp">
             <TextView
@@ -59,19 +59,19 @@
                 android:layout_centerInParent="true"
                 android:textSize="18sp"/>
         </RelativeLayout>
-        
+
     </LinearLayout>
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_weight="20"
-        android:src="@drawable/phone"
+        android:src="@drawable/logouser"
         app:tint="@color/my_primary" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Mobile number"
+        android:text="Enter Your username"
         android:layout_gravity="center_vertical"
         android:letterSpacing="0.08"
         android:textStyle="bold"
@@ -83,17 +83,11 @@
         android:orientation="horizontal"
         android:layout_weight="5"
         android:gravity="center">
-    
-        <com.hbb20.CountryCodePicker
-            android:id="@+id/login_countrycode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:ccp_showFlag="false"
-            app:ccp_showNameCode="false"/>
+
 
 
         <EditText
-            android:id="@+id/login_mobile_number"
+            android:id="@+id/login_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -113,11 +107,11 @@
         android:gravity="center_vertical"
         android:orientation="vertical">
         <Button
-            android:id="@+id/send_otp_btn"
+            android:id="@+id/login_let_me_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Send Our OTP"/>
+            android:text="LET ME IN"/>
         <ProgressBar
             android:id="@+id/login_progress_bar"
             android:layout_width="32dp"

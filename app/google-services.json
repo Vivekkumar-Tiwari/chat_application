@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "149384921204",
+    "firebase_url": "https://realtimedatabase-7ec46-default-rtdb.firebaseio.com",
+    "project_id": "realtimedatabase-7ec46",
+    "storage_bucket": "realtimedatabase-7ec46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149384921204:android:5c25f1ae4782f32c921121",
+        "android_client_info": {
+          "package_name": "com.example.easychat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxqzzXETfaqmwktrd6AYWrCGJherBnP6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149384921204:android:079f5bfd821c958c921121",
+        "android_client_info": {
+          "package_name": "com.example.quatology"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxqzzXETfaqmwktrd6AYWrCGJherBnP6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149384921204:android:7be0842753da5419921121",
+        "android_client_info": {
+          "package_name": "com.example.realtimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxqzzXETfaqmwktrd6AYWrCGJherBnP6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
