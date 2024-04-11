@@ -40,15 +40,14 @@ public class LoginPhoneNumberActivity extends AppCompatActivity {
 
             countryCodePicker.registerCarrierNumberEditText(phoneInput);
             sendOtpBtn.setOnClickListener((v1) -> {
-               if(!countryCodePicker.isValidFullNumber()){
-                   phoneInput.setError("phone number is not valid");
-                   return;
-               }
+                if (!countryCodePicker.isValidFullNumber()) {
+                    phoneInput.setError("phone number is not valid");
+                    return;
+                }
                 Intent intent = new Intent(LoginPhoneNumberActivity.this, LoginOtpActivity.class);
-                intent.putExtra("phone",countryCodePicker.getFullNumberWithPlus());
+                intent.putExtra("phone", countryCodePicker.getFullNumberWithPlus());
                 startActivity(intent);
             });
-
 
 
             return insets;
